@@ -159,6 +159,8 @@ body{
 @media (min-width:850px){
     body{
         background: url(./images/bg-pattern-top-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .container_social{
         width: 89%;
@@ -190,7 +192,7 @@ body{
         flex-direction: row;
         gap: 15px;
         align-items: center;
-        width: 340px;
+        width: 350px;
         top: 50%;
         left: 50%;
         transform: translate(-5% , -200%);
@@ -201,7 +203,7 @@ body{
         flex-direction: row;
         gap: 15px;
         align-items: center;
-        width: 340px;
+        width: 350px;
         top: 50%;
         left: 50%;
         transform: translate(5% , -80%);
@@ -212,7 +214,7 @@ body{
         flex-direction: row;
         gap: 15px;
         align-items: center;
-        width: 340px;
+        width: 350px;
         top: 50%;
         left: 50%;
         transform: translate(15% , 40%);
